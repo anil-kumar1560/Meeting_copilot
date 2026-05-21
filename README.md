@@ -71,16 +71,22 @@ cd backend
 # Copy and fill in environment variables
 cp .env.example .env
 # Edit .env and set OPENAI_API_KEY and DEEPGRAM_API_KEY
+```
 
-# Create a virtual environment (recommended)
+**macOS / Linux:**
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+uvicorn main:app --reload --port 8000
+```
+
+**Windows:**
+```bash
 python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
-
-# Install dependencies
+venv\Scripts\activate
 pip install -r requirements.txt
-
-# Start the server
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
+uvicorn main:app --reload --port 8000
 ```
 
 Backend runs at **http://localhost:8000**. API docs at **http://localhost:8000/docs**.

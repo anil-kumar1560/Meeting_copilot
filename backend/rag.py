@@ -10,6 +10,7 @@ Responsibilities:
 """
 
 import os
+import pathlib
 from typing import Any
 
 import chromadb
@@ -21,7 +22,7 @@ from openai import OpenAI
 # Module-level singletons
 # ---------------------------------------------------------------------------
 
-_CHROMA_PATH = "./chroma_db"
+_CHROMA_PATH = str(pathlib.Path("chroma_db"))
 _COLLECTION_NAME = "meeting_knowledge"
 _EMBED_MODEL = "text-embedding-3-small"
 _CHUNK_SIZE = 500       # tokens
