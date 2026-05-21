@@ -1,0 +1,22 @@
+{
+  "id": "meeting_1779333980",
+  "date": "2026-05-20T23:26:20.430174",
+  "duration": "00:00",
+  "transcript": [
+    {
+      "speaker": "Speaker 0",
+      "text": "I think we should discuss, this topic as a less possible one there.",
+      "time": "22:30"
+    }
+  ],
+  "key_points": [
+    "The topic is considered less possible.",
+    "There is a suggestion to discuss the topic further."
+  ],
+  "action_items": [],
+  "suggested_questions": [
+    "Can you clarify what you mean by 'less possible' in this context?",
+    "How does this topic relate to our current project goals?",
+    "Why are we considering this topic if it seems less likely to be feasible?"
+  ]
+}

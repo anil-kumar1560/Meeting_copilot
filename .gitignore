@@ -1,0 +1,31 @@
+# Python virtual environments
+venv/
+.venv/
+backend/venv/
+**/venv/
+
+# Environment files
+.env
+.env.*
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node and build artifacts
+node_modules/
+.next/
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE/editor files
+.vscode/
+*.swp
+*.swo
